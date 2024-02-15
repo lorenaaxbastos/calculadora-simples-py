@@ -27,6 +27,6 @@ class Calculadora:
     def potenciacao(self):
         return self._n1 ** self._n2
 
+    @property
     def radiciacao(self):
         return self._n1 ** (1 / self._n2)
-    
