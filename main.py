@@ -18,3 +18,7 @@ class Calculadora:
             return self._n1 / self._n2
         except ZeroDivisionError:
             return "Não é possível dividir por zero."
+
+    @property
+    def radiciacao(self):
+        return self._n1 ** (1 / self._n2)
